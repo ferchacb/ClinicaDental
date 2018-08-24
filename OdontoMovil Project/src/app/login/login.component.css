@@ -1,0 +1,31 @@
+footer div #iniciar-sesion{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    background: #ffffff;
+}
+footer div #iniciar-sesion form{
+    margin: auto;
+    margin-bottom: 30px;
+    background: #ADE8F6;
+    width: 50%;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+footer div #iniciar-sesion form input{
+    margin: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    border: 1px solid transparent;
+    transition: all .4s ease;
+}
+footer div #iniciar-sesion form #olvido{
+    color: rgb(8, 61, 78);
+
+}
+footer div #iniciar-sesion form input:focus{
+    border: 1px solid coral;
+    outline: 0;
+}

@@ -1,0 +1,182 @@
+.top {
+    position: relative;
+	background: #f8f8f8;	
+}
+.top2{
+	position: relative;
+	background: #99D3F8;
+}
+.row {
+	max-width:960px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+	body {
+		padding-top:80px;
+	}
+ 
+ 
+	header nav {
+		width: 80%;
+		height: calc(100% - 80px);
+		position: fixed;
+		right:100%;
+		margin: 0;
+		overflow: scroll ;
+	}
+ 
+	header nav ul li {
+		display: block;
+		border-bottom:1px solid rgb(255, 255, 255);
+	}
+ 
+	header nav ul li a {
+		display: block;
+	}
+ 
+	header nav ul li:hover .children {
+		display: none;
+	}
+ 
+	header nav ul li .children {
+		width: 100%;
+		position: relative;
+	}
+ 
+	header nav ul li .children li a {
+		margin-left:20px;
+	}
+ 
+	header nav ul li .caret {
+		float: left;
+	}
+}
+
+
+ul #nuestroEquipo li{
+	list-style: none;
+	padding: 20px;
+	border: 1px solid #4C4C4C;
+	margin-bottom: 5px;
+	background-color: #35424a;
+}
+
+.oscuro{
+	padding: 0px;
+	
+	background: #99d3f8;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 10px;
+	color: #fff;
+
+}
+aside {
+	padding: 20px;
+	margin: 30px;
+	float: none;
+	position: relative;
+	background:#f8f8f8;
+	margin: 30px;
+	border-bottom:2px solid #98c6d4 ;
+	display: block;
+	box-sizing: border-box;
+	text-decoration:none;
+
+}
+aside .top{
+	font-style: italic;
+
+}
+aside h5{
+	margin: 5px;
+	font-style: normal;
+	font-family:montserrat; 
+	display:block;
+	border-bottom:3px solid #aaddee;
+}
+aside a{
+	padding: 5px;
+	width: 38%;
+	height: -110px;
+	position: relative;
+	display:block;
+	border-bottom:1px solid rgb(178, 239, 250);
+}
+
+
+ #lateral {
+	margin: 90px 0px 0px -140px;
+	background: #f0f2f3;
+	padding-left: 10% ;
+	
+}
+#lateral h3{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+
+
+.p1{
+    
+    color: #4C4C4C;
+    padding: 0 0 0 30px;
+	margin: 0 0 16px;
+	font-size: 20px;
+	font-family: monserrat;
+
+}
+
+footer {
+	background:#bcc8ce;
+	width: 100%;
+	text-align: center;
+	padding:10px;
+ 
+	/* Flexbox */
+	display: flex;
+	justify-content:center;
+}
+ 
+footer .social {
+	background:#bcc8ce;
+}
+ 
+footer .social a {
+	text-decoration: none;
+	padding:10px;
+	display: inline-block;
+}
+
+body #contacto{
+    background: #aaddee;
+    font-family: 'Open sans';
+}
+
+
+
+.facebook{
+    background: url(../img/facebook.png);
+}
+.instagram{
+    background: url(../img/instagram.png);
+}
+.user{
+    background: url(../img/user.png);
+}
+.doctor{
+    background: url(../img/javi.jpg);
+}
+.doctora{
+    background: url(../img/laks.jpg);
+}
+.network{
+    background: url(../img/network.png);
+}
+.conversation{
+    background: url(../img/conversation.png);
+}
+.gmail{
+    background: url(../img/gmail.png);
+}
